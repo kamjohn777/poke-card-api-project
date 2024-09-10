@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Collection</title>
+    <link rel="stylesheet" href="./pokeStyles.css">
+</head>
+<body>
+    <header>
+        <h1>Pokémon Collection</h1>
+        <input type="text" id="search-bar" placeholder="Search Pokémon...">
+    </header>
+    <main>
+        <section id="collection" class="poke-section">
+            <h2>Collection</h2>
+            <div class="poke-container" id="poke-collection"></div>
+        </section>
+        <section id="favorites" class="poke-section">
+            <h2>Favorites</h2>
+            <div class="poke-container" id="poke-favorites"></div>
+        </section>
+        <button id="sort-toggle">Sort A-Z</button>
+        <div id="total-sum"></div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
